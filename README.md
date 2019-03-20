@@ -10,3 +10,6 @@ mp4fragment original_filename.mp4 target_filename.mp4
 
 mp4dash target_filename.mp4
 ```
+
+### Screenshot
+![Screendshot](screenshot.jpg)
