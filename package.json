@@ -1,0 +1,9 @@
+{
+  "name": "videojs-contrib-dash-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "connect": "latest",
+    "serve-static": "latest",
+    "videojs-contrib-dash": "latest"
+  }
+}
