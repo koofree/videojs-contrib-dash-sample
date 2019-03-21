@@ -70,7 +70,7 @@
 </head>
 
 <body>
-<video id="player" autoplay loop muted>
+<video id="video-background" autoplay loop muted style="width:100%;" poster="https://santainside-assets.s3.amazonaws.com/background-video/thumbnail.png">
 </video>
 <script src="node_modules/video.js/dist/video.min.js"></script>
 <script src="node_modules/dashjs/dist/dash.all.min.js"></script>
@@ -83,7 +83,7 @@
 </article>
 
 <script>
-	var player = videojs('player', {
+	var player = videojs('video-background', {
 		html5: {
 			dash: {
 				limitBitrateByPortal: true
@@ -93,7 +93,7 @@
 
 	player.ready(function () {
 		player.src({
-			src: 'https://santainside-assets.s3.amazonaws.com/output/stream.mpd',
+			src: 'https://santainside-assets.s3.amazonaws.com/background-video/stream.mpd',
 			type: 'application/dash+xml'
 		});
 	});
